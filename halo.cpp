@@ -15,6 +15,9 @@ int main () {
     cout << "Masukkan jumlah nama yang ingin dimasukkan: ";
     cin >> jumlah;
 
+    //inisialisasi array dinamis menggunakan pointer
+    string* nama = new string[jumlah];
+
     
     return 0;
 }
