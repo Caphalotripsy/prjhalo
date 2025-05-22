@@ -18,6 +18,12 @@ int main () {
     //inisialisasi array dinamis menggunakan pointer
     string* nama = new string[jumlah];
 
+    // Fungsi input nama
+    cout << "Masukkan " << jumlah << " nama:\n";
+    for (int i = 0; i < jumlah; i++) {
+        cout << "Nama ke-" << i + 1 << ": ";
+        cin >> nama[i];
+    }
     
     return 0;
 }
