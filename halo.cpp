@@ -25,5 +25,13 @@ int main () {
         cin >> nama[i];
     }
     
+    // Output nama - nama yang sudah dimasukkan
+    cout << "\nDaftar nama yang dimasukkan:\n";
+    for (int i = 0; i < jumlah; i++) {
+        cout << "- " << nama[i] << endl;
+    }
+
+    // Membersihkan memori
+    delete[] nama;
     return 0;
 }
